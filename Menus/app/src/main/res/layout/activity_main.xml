@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linear1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="text"
+       android:hint="enter name"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:inputType="phone"
+      android:hint="enter the mobile number"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Select gender"
+      style="@style/AppTheme"
+      android:textSize="30dp"
+      android:gravity="center"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="enter password"
+      android:inputType="numberPassword"/>
+   <RadioGroup
+       android:id="@+id/rb"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:id="@+id/rgb1"
+          android:text="male"
+          />
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/rgb2"
+          android:text="female"
+          />
+
+
+   </RadioGroup>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:text="Select programming languages"
+   style="@style/TextAppearance.AppCompat.Body1"
+   android:textSize="30dp"
+   />
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="c,c++"
+      android:textSize="10dp"
+      android:id="@+id/cb1"/>
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="java"
+       android:textSize="10dp"
+       android:id="@+id/cb2"/>
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="python"
+       android:textSize="10dp"
+       android:id="@+id/cb3"/>
+   <Button
+       android:id="@+id/button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="submit"
+       android:fontFamily="cursive"
+      />
+
+<Switch
+    android:gravity="center"
+    android:id="@+id/switch1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   />
+
+</LinearLayout>

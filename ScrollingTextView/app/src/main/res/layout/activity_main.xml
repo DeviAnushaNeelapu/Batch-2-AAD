@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/article_heading"
+    android:background="@color/colorPrimary"
+    android:text="@string/title"
+    android:textSize="30dp"
+    android:textAllCaps="true"
+    android:textColor="#F3EFEF"
+    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/article_subheading"
+        android:padding="10dp"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:text="@string/heading"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/article"
+        android:text="@string/article"
+        android:lineSpacingExtra="5dp"
+        android:autoLink="all"/>
+    </ScrollView>
+
+
+</LinearLayout>
