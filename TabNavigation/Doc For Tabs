@@ -1,0 +1,25 @@
+Tab Navigation
+
+Dummy Wats Up
+API Level 21
+
+Two Important Things Need to Know
+1) ViewPager
+2)TabLayout
+
+Need to add dependencies
+
+implementation 'com.android.support:design:28.0.0'
+
+or
+In Project Structure ->depencies->app->click on plus->library depencies ->search design 
+click on ok.
+
+Steps for Implementing the Tabs:
+
+1)Define the tablayout using TabLayout
+2)Implement a fragment and its layout for each tab.
+3)Implement a PagerAdapter from FragmentPagerAdapter or Fragment State PagerAdapter
+4)CreatE an instance of the tablayout.
+5)Manage Screens views in Fragments
+6)Set a listener to determine which tab is tapped.
